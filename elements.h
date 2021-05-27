@@ -371,42 +371,110 @@ extern void table()
     atom[39].atomicnum=40;
         
     atom[39].atomicwt=91.22;
-    strcpy(atom[40].name,"NIOBIUM");
-        
-    strcpy(atom[40].symbol,"Nb");
-        
-    atom[40].atomicnum=41;
-        
+    strcpy(atom[40].name,"NIOBIUM");     
+    strcpy(atom[40].symbol,"Nb");       
+    atom[40].atomicnum=41;       
     atom[40].atomicwt=92.90;
+    strcpy(atom[0].electronic_configuration,"Kr 4d⁴ 5s¹");
+    strcpy(atom[0].history,"Niobium was discovered in 1801 by Charles Hatchett in an ore called columbite sent to England in the 1750s by John Winthrop the Younger, the first goveror of Connecticut, USA. ... The metal niobium was first prepared in 1864 by Blomstrand, who reduced the chloride by heating it in a hydrogen atmosphere.");
+    atom[0].melting_point = 2,477 °C;
+    atom[0].boiling_point = 4,927 °C;
+    atom[0].ionic_radius = 207 pm;
+    atom[0].isotopes = 18;
+    atom[0].electronegativity = 1.6;
+    strcpy(atom[0].color," silvery-white");
+    atom[0].group = 5;
+    atom[0].period = 5;
+    strcpy(atom[0].conductivity,"Thermal & Electrical");
+    strcpy(atom[0].luster,"bright metallic luster");
+    strcpy(atom[0].phase,"Solid");
+    atom[0].density = 8.57;
+    strcpy(atom[0].image_path,"");
+	
+	
     strcpy(atom[41].name,"MOLYBDENUM");
-        
     strcpy(atom[41].symbol,"Mo");
-
     atom[41].atomicnum=42;
-        
     atom[41].atomicwt=95.94;
+    strcpy(atom[0].electronic_configuration,"[Kr] 4d₅ 5s₁");
+    strcpy(atom[0].history," Molybdenum was discovered by Carl Welhelm Scheele, a Swedish chemist, in 1778 in a mineral known as molybdenite (MoS2) which had been confused as a lead compound. Molybdenum was isolated by Peter Jacob Hjelm in 1781");
+    atom[0].melting_point = 2,623 °C;
+    atom[0].boiling_point = 4,639 °C;
+    atom[0].ionic_radius = 0.068 nm (+4) ; 0.06 nm (+6);
+    atom[0].isotopes = 7;
+    atom[0].electronegativity = 2.16;
+    strcpy(atom[0].color,"silvery-grey");
+    atom[0].group = 6;
+    atom[0].period = 5;
+    strcpy(atom[0].conductivity,"Thermal");
+    strcpy(atom[0].luster,"metallic luster");
+    strcpy(atom[0].phase,"Solid");
+    atom[0].density = 10.22 g/cm3;
+    strcpy(atom[0].image_path,"");
+	
+	
     strcpy(atom[42].name,"TECHNETIUM");
-        
-    strcpy(atom[42].symbol,"Tc");
-        
+    strcpy(atom[42].symbol,"Tc");        
     atom[42].atomicnum=43;
-        
     atom[42].atomicwt=98.00;
+    strcpy(atom[0].electronic_configuration,"Kr 4d5 5s2");
+    strcpy(atom[0].history,"Technetium was discovered by Emilio Segrè in 1937 in Italy. He investigated molybdenum from California which had been exposed to high energy radiation and he found technetium to be present and separated it. Today, this element is extracted from spent nuclear fuel rods in tonne quantities.");
+    atom[0].melting_point = 2,157 °C;
+    atom[0].boiling_point = 4,265 °C;
+    atom[0].ionic_radius = 205 pm;
+    atom[0].isotopes = 22;
+    atom[0].electronegativity = 1.9;
+    strcpy(atom[0].color,"silvery-grey");
+    atom[0].group = 7;
+    atom[0].period = 5;
+    strcpy(atom[0].conductivity,"Thermal");
+    strcpy(atom[0].luster,"No luster");
+    strcpy(atom[0].phase,"Solid");
+    atom[0].density = 11.5 g.cm-3 at 20°C;
+    strcpy(atom[0].image_path,"");
+	
     strcpy(atom[43].name,"RUTHENIUM");
-        
-    strcpy(atom[43].symbol,"Ru");
-        
-    atom[43].atomicnum=44;
-        
+    strcpy(atom[43].symbol,"Ru");        
+    atom[43].atomicnum=44;       
     atom[43].atomicwt=101.07;
-
-    strcpy(atom[44].name,"RHODIUM");
-        
-    strcpy(atom[44].symbol,"Rh");
-        
-    atom[44].atomicnum=45;
-        
+    strcpy(atom[0].electronic_configuration,"[Kr] 4d7 5s1");
+    strcpy(atom[0].history," Ruthenium was discovered by Karl Karlovich Klaus, a Russian chemist, in 1844 while analyzing the residue of a sample of platinum ore obtained from the Ural mountains. ... Small amounts of ruthenium are added to platinum and palladium to strengthen them.");
+    atom[0].melting_point = 2,334 °C;
+    atom[0].boiling_point = 4,150 °C;
+    atom[0].ionic_radius = 205 pm;
+    atom[0].isotopes = 7;
+    atom[0].electronegativity = 2.2;
+    strcpy(atom[0].color,"silvery white");
+    atom[0].group = 8;
+    atom[0].period = 5;
+    strcpy(atom[0].conductivity,"Thermal and Electrical");
+    strcpy(atom[0].luster,"Hard luster");
+    strcpy(atom[0].phase,"Solid");
+    atom[0].density = 12.2 g.cm-3 at 20°C;
+    strcpy(atom[0].image_path,"");
+	
+	
+    strcpy(atom[44].name,"RHODIUM");        
+    strcpy(atom[44].symbol,"Rh");        
+    atom[44].atomicnum=45;        
     atom[44].atomicwt=102.90;
+    strcpy(atom[0].electronic_configuration,"Kr 4d8 5s1");
+    strcpy(atom[0].history,"Rhodium was discovered in 1803 by William Wollaston. He collaborated with Smithson Tennant in a commercial venture, part of which was to produce pure platinum for sale. The first step in the process was to dissolve ordinary platinum in aqua regia (nitric acid + hydrochloric acid).");
+    atom[0].melting_point = 1,964 °C;
+    atom[0].boiling_point = 3,697 °C;
+    atom[0].ionic_radius = 200 pm;
+    atom[0].isotopes = 1;
+    atom[0].electronegativity = 2.28;
+    strcpy(atom[0].color,"silver white");
+    atom[0].group = 9;
+    atom[0].period = 5;
+    strcpy(atom[0].conductivity,"Thermal");
+    strcpy(atom[0].luster,"Metallic luster");
+    strcpy(atom[0].phase,"Solid ");
+    atom[0].density = 12.2 g.cm-3 at 20°C;
+    strcpy(atom[0].image_path,"");
+	
+	
     strcpy(atom[45].name,"PALLADIUM");
         
     strcpy(atom[45].symbol,"Pd");
